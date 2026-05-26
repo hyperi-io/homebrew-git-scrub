@@ -9,26 +9,26 @@
 class GitScrub < Formula
   desc "Surgical removal of unwanted content from git history"
   homepage "https://github.com/hyperi-io/git-scrub"
-  version "1.0.1"
+  version "1.0.2"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hyperi-io/git-scrub/releases/download/v1.0.1/git-scrub-1.0.1-darwin-arm64.tar.gz"
-      sha256 "f5dcb2c5f7070e4151d44466a22c902cf093b40930d3bef1b387cc710fff58b5"
+      url "https://github.com/hyperi-io/git-scrub/releases/download/v1.0.2/git-scrub-1.0.2-darwin-arm64.tar.gz"
+      sha256 "95af0ac6571b40ad0cf5ea7e3efb507e7a06479eb6c90b1c569f8d2c2f424586"
     else
-      url "https://github.com/hyperi-io/git-scrub/releases/download/v1.0.1/git-scrub-1.0.1-darwin-amd64.tar.gz"
-      sha256 "4bbb70358ef80f33084cdc8c9c7ee787cf9602f5690d6b5fbc9e0f2d3a3a3762"
+      url "https://github.com/hyperi-io/git-scrub/releases/download/v1.0.2/git-scrub-1.0.2-darwin-amd64.tar.gz"
+      sha256 "c7ee02d771dead60b227c09760d4e4dbc1e23293e5b09b1962100f31ce45f2c3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/hyperi-io/git-scrub/releases/download/v1.0.1/git-scrub-1.0.1-linux-arm64.tar.gz"
-      sha256 "5b9f4bd8aa048a8988dfd42dd3268cb91f82ebb7778b1419642a814a8e922104"
+      url "https://github.com/hyperi-io/git-scrub/releases/download/v1.0.2/git-scrub-1.0.2-linux-arm64.tar.gz"
+      sha256 "c5a46b605a01a3cc5d0ef19e1bffe7c60184072ab2ad4ef79d03e2aafe50553b"
     else
-      url "https://github.com/hyperi-io/git-scrub/releases/download/v1.0.1/git-scrub-1.0.1-linux-amd64.tar.gz"
-      sha256 "d57bd8b30affe547249a3ff11ddc838106d1bccff30a5558189792e4c56f4bf4"
+      url "https://github.com/hyperi-io/git-scrub/releases/download/v1.0.2/git-scrub-1.0.2-linux-amd64.tar.gz"
+      sha256 "e55ae7fc6394d57b51ce8b309ff5b8400e4087e3aa3a6624af5d1769af891584"
     end
   end
 
